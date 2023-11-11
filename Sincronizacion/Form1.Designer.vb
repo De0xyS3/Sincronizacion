@@ -111,8 +111,13 @@ Partial Class Form1
         Controls.Add(Label1)
         Controls.Add(btnSave)
         Controls.Add(btnConnect)
+        MaximizeBox = False
+        MdiChildrenMinimizedAnchorBottom = False
+        MinimizeBox = False
         Name = "Form1"
-        Text = "Form1"
+        ShowIcon = False
+        StartPosition = FormStartPosition.CenterScreen
+        Text = "Login Sharepoint"
         ResumeLayout(False)
         PerformLayout()
     End Sub
