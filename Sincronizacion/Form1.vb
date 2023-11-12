@@ -61,6 +61,8 @@ Public Class Form1
         MessageBox.Show("Configuración guardada con éxito!")
         Dim form2 As New Form2()
         form2.Show()
+        Me.Hide()
+
 
     End Sub
 
